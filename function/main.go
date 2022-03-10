@@ -3,7 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("aaaa")
+
+	show("Arm", "Art")
+
+	s := sum(1, 1)
+	fmt.Println(s)
+
+	a, b := swap(5, 10)
+
+	fmt.Println("a", a)
+	fmt.Println("a", b)
 }
 
 //===No Return Value===//
