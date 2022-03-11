@@ -9,5 +9,5 @@ import (
 func main() {
 	c := course.New()
 
-	fmt.Printf("%v", c)
+	fmt.Printf(c.Name)
 }

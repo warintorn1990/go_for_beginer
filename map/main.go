@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// a := make(map[string]string)
 	// a := map[string]string{}
@@ -11,4 +13,6 @@ func main() {
 		"b": "Onepice",
 		"c": "DragonBall",
 	}
+
+	fmt.Println(a)
 }

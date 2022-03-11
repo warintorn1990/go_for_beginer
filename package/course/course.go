@@ -6,6 +6,6 @@ type Course struct {
 
 func New() Course {
 	return Course{
-		Name: "Golang For Beginer",
+		Name: "Golang For Beginer 555",
 	}
 }
