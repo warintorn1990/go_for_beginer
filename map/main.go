@@ -14,5 +14,7 @@ func main() {
 		"c": "DragonBall",
 	}
 
-	fmt.Println(a)
+	fmt.Println(a["a"])
+	fmt.Println(a["b"])
+	fmt.Println(a["c"])
 }

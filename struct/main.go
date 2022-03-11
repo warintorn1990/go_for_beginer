@@ -2,28 +2,17 @@ package main
 
 import "fmt"
 
-type dog struct {
-	name string
-	age  int
+type rectangle struct {
+	w, l float64
 }
 
 func main() {
 
-	// var lufy dog = dog{
-	// 	name: "lufy",
-	// 	age:  19,
-	// }
+	rec := rectangle{w: 4, l: 5}
 
-	// var solo dog{
-	// 	name: "Solo",
-	// 	age:  22,
-	// }
+	rec.w = 10
 
-	sanji := dog{
-		name: "Sanji",
-		age:  22,
-	}
-
-	fmt.Println(sanji.name)
+	fmt.Println(rec.w)
+	fmt.Println(rec.l)
 
 }

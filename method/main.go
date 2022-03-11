@@ -1,19 +1,18 @@
 package main
 
+import "fmt"
+
+type rectangle struct {
+	w, l float64
+}
+
+func (rec rectangle) Area() float64 {
+	return rec.l * rec.w
+}
+
 func main() {
 
-	type Dog struct {
-		name string
-		age  int
-	}
+	rec := rectangle{w: 4, l: 5}
 
-	// func Walk (d Dog) string{
-	// 	return 'Walk...'
-	// }
-
-	func (d Dog) Walk(); string{
-		pp := "Walk..."
-		return pp
-	}
-
+	fmt.Println(rec.Area())
 }
