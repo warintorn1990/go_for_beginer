@@ -10,14 +10,14 @@ func main() {
 	}
 
 	//===Loop With Condition===//
-	var k = 0
-	for k < 10 {
-		fmt.Println("k ==> ", k)
-		k++
-	}
+	// var k = 0
+	// for k < 10 {
+	// 	fmt.Println("k ==> ", k)
+	// 	k++
+	// }
 
 	//===Infinity Loop===//
-	for {
-		fmt.Println("===Infinity===")
-	}
+	// for {
+	// 	fmt.Println("===Infinity===")
+	// }
 }
