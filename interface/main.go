@@ -41,6 +41,7 @@ func main() {
 	circle := Circle{5}
 
 	shapes := [...]Shaper{rectangle, square, circle}
+
 	for _, shape := range shapes {
 		ComputeArea(shape)
 	}

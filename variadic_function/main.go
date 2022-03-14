@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	s := []string{"a", "b", "c"}
-	variadicString(s...)
+	// s := []string{"a", "b", "c"}
+	// variadicString(s...)
 
-	//variadicString("a", "b", "c")
+	variadicString("a", "b", "c")
 }
 
 func variadicString(s ...string) {
